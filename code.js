@@ -18,7 +18,6 @@ function binarySearch(list, element) {
 
     
     if(list[mid] == element){
-        console.log("MATCH");
         let lower = binarySearch(list.slice(0, mid), element);
         if(lower == -1){
             return mid;
