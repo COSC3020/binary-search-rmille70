@@ -31,12 +31,3 @@ function binarySearch(list, element) {
         return -1;
     }
 }
-
-/*Testing: 
-console.log(binarySearch([0,1,2,3,4,5,6,7,8,9], -1)) //Should be -1
-console.log(binarySearch([0,1,2,3,4,5,6,7,8,9], 10)) //Should be -1
-console.log(binarySearch([0,1,2,3,4,5,6,7,8,9], 9))  //Should be 9
-console.log(binarySearch([0,1,2,3,4,6,6,7,8,9], 6))  //Should be 5
-console.log(binarySearch([-1,0], 0))                 //Should be 1
-console.log(binarySearch([], 0))                     //Should be -1
-*/
